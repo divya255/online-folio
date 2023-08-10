@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h6{
+    color: gray;
+}
+nav{
+    height: 270px;
+    line-height: 70px;
+    padding: 2px 250px;
+    background: black;
+    margin: 0px;
+}
+nav p{
+    line-height: 20px;
+}
+nav .logo{
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    margin: 10px;
+}
+ nav ul{
+    float: right;
+ }
+ nav li {
+    display: flex;
+    
+ }
+ nav li a{
+    padding: 0px  10px ;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+ }
+nav li a:hover{
+    color:blueviolet;
+}
+.section{
+    display: flex ;   
+    margin-top: 20px;
+    margin-left: 200PX;
+    margin-right: 200px;
+    padding: 49PX;
+}
+h3{
+    margin-top: 40px;
+    color: gray;
+    font-weight: 1000px;
+    padding-left: 10px;
+    font-size: 150px;
+    margin-left: 300PX;
+}
+.content {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    max-width: 1100px;
+    margin: 50px auto;
+  }
+  .grid item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    max-width: 320px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.2);
+  }
+  h5{
+    color: skyblue;
+  }
+  .card_content {
+    padding: 20px;
+  }
+  .card_content h3 {
+    margin-bottom: 10px;
+  }
+.main{
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.main .sub{
+    padding-left: 200px;
+}
+.main .sub3{
+    padding-right: 200px;
+}
+.main .sub2{
+    padding-left: 70px;
+    margin-right: 40px;
+}
